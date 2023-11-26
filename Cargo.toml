@@ -1,10 +1,13 @@
 [package]
 name = "testing"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy="0.9"
-bevy_framepace = "0.9.1"
+bevy="*"
+bevy_framepace = "*"
+bevy_ecs_ldtk="*"
+# bevy_asset_loader="0.14.1"
+iyes_loopless="*"
